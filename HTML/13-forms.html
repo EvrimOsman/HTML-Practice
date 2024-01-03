@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- Notes:
+    id = must be unique and is used for differentiation of the elements
+    for = is used to create connection with the label
+    name = is used to put elements under one category
+ -->
+    <form>
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" placeholder="Please enter your name" required>
+<br>
+<br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Please enter your email" required>
+        <br>
+        <br>
+        <label for="password">Password:</label>
+        <input type="passsword" id="password" placeholder="Please provide a password" required>
+        <br>
+        <br>
+        <label for="addr">Address: </label>
+        <input type="text" name="address" id="addr" placeholder="Please provide address here">
+        <br>
+        <br>
+        <label for="Age">Age:</label>
+        <input type="number" name="age" id="Age">
+        <br>
+        <br>
+        <!-- Radio button -->
+        <label for="gender">Gender:</label>
+        <br>
+        <label for="male">Male: </label>
+        <input type="radio" name="gender" id="male">
+        <br>
+        <label for="female">Female: </label>
+        <input type="radio" name="gender" id="female">
+        <br>
+        <label for="none">Don't specify: </label>
+        <input type="radio" name="gender" id="none">
+        <br>
+        <br>
+        <input type="file" name="" id="">
+        <br><br>
+        <input type="color" name="color" id="color">
+        <br><br>
+        <input type="range" name="range" id="range">
+        <br><br>
+        <input type="date" name="date" id="date">
+        <br><br>
+        <input type="time" name="time" id="time">
+        <br><br>
+
+        <!--  Options using select tag-->
+        <section name="Languages:">
+            <option value="default"></option>
+            <option value="en">English</option>
+            <option value="fr">French</option>
+            <option value="ch">Chinese</option>
+        </section> 
+        <br><br>
+
+        <!--   Additional area -->
+        <textarea name="mytext" id="mytext" cols="50" rows="20" placeholder="Please tell ua about yourself"></textarea>
+        <br><br>
+        <label for="url">Your website: </label>
+        <input type="url" name="" id="url">
+        <br><br>
+        <!-- creating button -->
+        <input type="save" value="Save" disabled>
+        <!-- OR -->
+        <button>Save</button>
+        <br><br>
+        <input type="reset" value="Reset">
+        <button>Reset</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>

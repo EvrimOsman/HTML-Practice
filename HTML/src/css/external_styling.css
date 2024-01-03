@@ -1,0 +1,65 @@
+
+body{
+    background-color: beige;
+}
+h4{
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+}
+p{
+    color: brown;
+    font-size: 20px;
+}
+p.common{
+    color: coral;
+    background-color: azure;
+}
+h2{
+    text-align: center;
+    font-family: cursive;
+}
+h2{
+    font-family: fantasy !important;
+}
+/* classes can be used to style together.
+   For classes, we start with a dot like .content
+   or we can also make it more specific by using the original 
+   tag like p.content 
+   Any tag that has class="content", will have the same style
+   We can use multiple class properties in a tag, 
+   the value in the bottom one will prevail. 
+   Class property can be used in different tags
+   */
+.content{
+    text-align: right;
+    color: darkgreen;
+}
+/* tags acan be styled together suing ids as well.
+For id, we start with hashtag sign # 
+*/
+#abc{
+    text-align: center;
+    color: orange;
+    background-color: cyan;
+}
+.description{
+    color: white;
+    background-color: darkolivegreen;
+    font-size: 10px;
+}
+.title{
+    color: blue;
+    background-color: darkkhaki;
+    font-family: cursive;
+}
+
+
+
+
+
+
+
+
+
+

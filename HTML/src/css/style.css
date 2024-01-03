@@ -1,0 +1,114 @@
+div{
+    background-color: gray;
+    /* width: 200px;
+    height: 150px;
+    text-align: center; */
+}
+
+.active{
+    background-color: black;
+    color: white;
+}
+
+.side-menu{
+    background-color: gray;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+}
+
+/* General style for all anchor tag / link tag<a> */
+/* To remove the underline of the link, add text-decoration: none; */
+a{
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 20px;
+    /* font-style: italic; */
+}
+/* style for unvisited link */
+a:link{
+    color: red;
+}
+
+/* style for visited link */
+a:visited{
+    color: cornflowerblue;
+}
+
+/* style when you hover over a link */
+a:hover{
+    color: orange;
+    background-color: green;
+}
+
+/* Style when the link is active */
+
+a:active{
+    color: chocolate;
+    background-color: burlywood;
+}
+
+/*  List Styling  */
+
+ul{
+    line-height: 2rem;
+    list-style-position: inside;
+    list-style-type: circle;
+    /* list-style-image: url(../img/dubai\ desert.webp); */
+
+}
+ul.icon{
+    /* https://emojipedia.org/ */
+    list-style-type: '✨' ;  
+}
+
+/* display property and it's effects on block and inline elements  */
+
+div.display{
+    display: inline;
+    padding: 20px 30px 10px 5px;
+    border-bottom: 5px dashed yellowgreen;
+    border-top: 2px dotted blue;
+    border-right: 4px ridge red;
+    border-left: 8px double orange;
+
+    border-radius: 20px;
+
+    margin-left: 20px;
+    margin-right: 40px;
+
+}
+
+.btn{
+    /* display: block; */
+    display: inline;
+    /* background-color: red; */
+    /* font-size: 50px; */
+
+    /* Padding and margins  */
+    /* padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px; */
+    /* padding: 20px ; */
+    /* padding: 20px 10px; */
+    padding: 20px 30px 10px 5px;
+
+    border-bottom: 5px dashed yellowgreen;
+    border-top: 2px dotted blue;
+    border-right: 4px ridge red;
+    border-left: 8px double orange;
+
+    border-radius: 20px;
+
+    margin-left: 20px;
+    margin-right: 40px;
+
+}
+
+body{
+    background-image: url(../img/techpro_image.png);
+    background-repeat: no-repeat;
+    background-size:  100px;
+    background-position: top left;
+}

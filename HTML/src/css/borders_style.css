@@ -1,0 +1,39 @@
+div{
+      width: 500px;
+      height: 200px;
+      border-radius: 30px;
+      text-align: center;
+      font-size: 30px;
+      margin: 30px;
+  }
+  
+  .box1{
+      display: inline-block;
+      border: 2px solid red;
+      color: blue;
+      
+  }
+  
+  .box2{
+      border: 2px solid red;
+  }
+  .box3{
+      border: 2px solid pink;
+      background: pink;
+  }
+  .box4{
+      border: 2px solid pink;
+      background: pink;
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
